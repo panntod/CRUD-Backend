@@ -15,10 +15,10 @@ Proyek ini merupakan sebuah Rest Api yang dibangun dengan menggunakan Express da
 
 Clone repository backend proyek ini dengan menggunakan perintah berikut:
 ```
-git clone https://github.com/panntod/CRUD_frontend.git
+git clone https://github.com/panntod/CRUD-Frontend.git
 ```
 or
-See: https://github.com/panntod/CRUD_Frontend
+See: https://github.com/panntod/CRUD-Frontend
 
 ### Langkah 2: Install Dependensi
 
