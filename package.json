@@ -5,18 +5,19 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "migrate": "npx sequelize-cli db:migrate",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
     "express": "^4.17.3",
-    "jsonwebtoken": "^9.0.2",
     "mysql2": "^2.3.3",
     "sequelize": "^6.17.0"
   }

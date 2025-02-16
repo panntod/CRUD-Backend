@@ -1,4 +1,4 @@
-# CRUD  APP
+# CRUD APP
 
 ## Deskripsi
 
@@ -6,7 +6,7 @@ Proyek ini merupakan sebuah Rest Api yang dibangun dengan menggunakan Express da
 
 ## Fitur
 
-- Endpoint CRUD User 
+- Endpoint CRUD User
 - Akses MySql
 
 ## Cara Menjalankan Aplikasi
@@ -14,16 +14,19 @@ Proyek ini merupakan sebuah Rest Api yang dibangun dengan menggunakan Express da
 ### Langkah 1: Clone Backend
 
 Clone repository backend proyek ini dengan menggunakan perintah berikut:
+
+```bash
+git clone https://github.com/panntod/CRUD-Backend.git
 ```
-git clone https://github.com/panntod/CRUD-Frontend.git
-```
+
 or
-See: https://github.com/panntod/CRUD-Frontend
+See: [https://github.com/panntod/CRUD-Backend](https://github.com/panntod/CRUD-Backend)
 
 ### Langkah 2: Install Dependensi
 
 Masuk ke direktori backend dan lakukan instalasi dependensi dengan perintah:
-```
+
+```bash
 npm install
 ```
 
@@ -32,6 +35,7 @@ Pastikan MongoDB sudah berjalan atau terkoneksi dengan benar.
 ### Langkah 3: Menjalankan backend
 
 Selanjutnya, untuk menjalankan backend:
-```
+
+```bash
 npm run dev
 ```

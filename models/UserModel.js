@@ -1,10 +1,10 @@
-import { Sequelize } from "sequelize";
-import db from "../config/Database.js";
+import { Sequelize } from 'sequelize';
+import db from '../config/Database.js';
 
 const { DataTypes } = Sequelize;
 
 const User = db.define(
-  "users",
+  'users',
   {
     name: DataTypes.STRING,
     email: DataTypes.STRING,
@@ -17,7 +17,3 @@ const User = db.define(
 );
 
 export default User;
-
-// (async () => {
-//   await db.sync();
-// })();
