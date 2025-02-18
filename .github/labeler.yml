@@ -16,7 +16,10 @@ Release:
 
 # Add 'Feature' label to any PR where the head branch name starts with `feature`
 Feature:
-  - head-branch: '^feature'
+  - head-branch:
+      - '^feature'
+      - '^feat'
+      - '^enhancement'
 
 # Add 'Bug' label to any PR where the head branch name starts with `hotfix`, `fix`, or `bugfix`
 Bug:
@@ -28,8 +31,8 @@ Bug:
 # Add 'Integration' label to any PR where the title contains 'integration', 'integrasi', or 'integrations'
 Integration:
   - title:
-      - 'integration'
-      - 'integrations'
+      - '^integration'
+      - '^integrations'
 
 # Add 'Slicing' label to any PR where the title contains 'slicing'
 Slicing:
